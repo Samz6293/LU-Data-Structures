@@ -27,6 +27,6 @@ int main() {
     if(!found) {
         cout << "Element not found in array.";
     }
-
+    cout << endl;
     return 0;
 }

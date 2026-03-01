@@ -19,7 +19,7 @@ int main() {
     cout << "\nChar Array:\n";
     for(int i = 0; i < 3; i++)
         cout << charArr[i] << " ";
-
+    cout << endl;
     return 0;
 }
 

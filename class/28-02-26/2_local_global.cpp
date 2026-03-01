@@ -14,7 +14,7 @@ int main() {
     cout << "\nLocal Array:\n";
     for(int i = 0; i < 3; i++)
         cout << localArray[i] << " ";
-
+    cout << endl;
     return 0;
 }
 

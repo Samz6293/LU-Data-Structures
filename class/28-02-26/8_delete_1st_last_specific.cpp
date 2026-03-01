@@ -50,6 +50,6 @@ int main() {
     cout << "\nUpdated Array: ";
     for(int i = 0; i < size; i++)
         cout << arr[i] << " ";
-
+    cout << endl;
     return 0;
 }

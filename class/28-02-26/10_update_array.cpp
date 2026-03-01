@@ -26,6 +26,6 @@ int main() {
     } else {
         cout << "Invalid index!";
     }
-
+    cout << endl;
     return 0;
 }

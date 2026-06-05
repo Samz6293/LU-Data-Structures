@@ -2,7 +2,7 @@
 using namespace std;
 
 // Prototypes
-void dequeue(int queue[], int &front, int &rear);
+void dequeue(int queue[], int &front, int rear);
 void enqueue(int queue[], int &rear, int item);
 void display(int queue[], int front, int rear);
 
@@ -29,7 +29,7 @@ int main() {
   display(queue, front, rear);
 }
 
-void dequeue(int queue[], int &front, int &rear) {
+void dequeue(int queue[], int &front, int rear) {
 
   cout << "Operation -> Dequeue" << endl;
 
